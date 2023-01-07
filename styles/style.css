@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    background: #fd710d;
+    border-radius: 5px;
+    border: 0;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    height: 64px;
+}
+
+.btn-secondary {
+    /* height: 64px; */
+    color: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.content-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 40px;
+}
+
+.description-text {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #737272;
+}
+
+/* Align item right using position */
+.right {
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    width: 500px;
+}
+
+/* Header styles */
+.header {
+    background-image: url('../assets/images/banner/banner1.png');
+    height: 800px;
+}
+
+/* Banner styles */
+.banner-text {
+    text-align: right;
+}
+
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+
+    color: #151414;
+}
+
+
+/* Image and realization section styles */
+.realization {
+    display: flex;
+    gap: 80px;
+    margin: 100px 200px 130px;
+}
+
+.realization-text {
+    margin-top: 250px;
+}
+
+.marked-text {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #737272;
+}
+
+.check-mark {
+    color: #16D887;
+}
+
+/* Plans section styles */
+.plans {
+    margin: 0 200px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-item-title {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.plan-item-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #737272;
+}
+
+/* Motivation section styles */
+.motivation {
+    margin: 0 200px;
+    background-image: linear-gradient(to right, rgba(253, 113, 13, .75), rgba(253, 113, 13, 0)), url('../assets/images/watch.png');
+    margin-bottom: 130px;
+    border-radius: 5px;
+}
+
+.motivation-text {
+    padding: 60px;
+    width: 400px;
+}
+
+
+
+.motivation-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+/* Future and subscribe styles */
+.future {
+    background-color: #151414;
+    padding: 100px 0;
+}
+
+.future-container {
+    display: flex;
+    margin: 0 200px 130px;
+    gap: 300px;
+}
+
+.future-info {
+    color: #f8f8f8;
+}
+
+.future-subscribe-title {
+    font-weight: 600;
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 30px;
+
+}
+
+.future-info-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.future-info-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.social-icon {
+    display: flex;
+    gap: 16px;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0);
+    color: #f8f8f8;
+    margin-bottom: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
