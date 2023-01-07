@@ -20,6 +20,7 @@
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 5px;
+    height: 64px;
 }
 
 
@@ -133,6 +134,7 @@ nav li {
 .plan-container {
     display: flex;
     justify-content: space-around;
+    padding-top: 30px;
 }
 
 .plan-item-title {
@@ -215,7 +217,7 @@ nav li {
 input {
     background-color: rgba(255, 255, 255, 0);
     color: #f8f8f8;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     padding: 10px 20px;
     border-radius: 5px;
 }
